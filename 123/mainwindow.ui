@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>434</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>434</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu1">
+    <property name="title">
+     <string>画线算法</string>
+    </property>
+    <addaction name="action1_2"/>
+    <addaction name="action1_3"/>
+   </widget>
+   <widget class="QMenu" name="menu2">
+    <property name="title">
+     <string>画圆算法</string>
+    </property>
+    <addaction name="action2_1"/>
+   </widget>
+   <widget class="QMenu" name="menu3">
+    <property name="title">
+     <string>椭圆算法</string>
+    </property>
+    <addaction name="action3_1"/>
+   </widget>
+   <addaction name="menu1"/>
+   <addaction name="menu2"/>
+   <addaction name="menu3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action1_2">
+   <property name="text">
+    <string>DDA</string>
+   </property>
+  </action>
+  <action name="action2_1">
+   <property name="text">
+    <string>中点圆</string>
+   </property>
+  </action>
+  <action name="action3_1">
+   <property name="text">
+    <string>中点椭圆</string>
+   </property>
+  </action>
+  <action name="action1_3">
+   <property name="text">
+    <string>Bresenham</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

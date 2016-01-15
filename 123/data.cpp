@@ -1,0 +1,9 @@
+#include "data.h"
+ int startx_x=0;
+ int startx_y=0;
+ int starty_x=0;
+ int starty_y=0;
+ int r=0;
+ int start_x=0;
+ int start_y=0;
+ int longr=0,shortr=0,startx=0,starty=0;
